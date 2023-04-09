@@ -45,5 +45,3 @@ CORS의 동작 원리
 - 요청에 사용된 `XMLHttpRequestUpload` 객체에 이벤트 리스너가 등록되어 있지 않다. 이들은 `XMLHttpRequest.upload` 프로퍼티를 사용하여 접근
 
 - 요청에 [`ReadableStream`](https://developer.mozilla.org/ko/docs/Web/API/ReadableStream) 객체가 사용되지 않는다
-
-
