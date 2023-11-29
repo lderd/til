@@ -1,10 +1,8 @@
 # 알고리즘
 
-- [모듈러의 분배법칙](./알고리즘/모듈러의 분배법칙.md)
+- [모듈러의 분배법칙](./알고리즘/모듈러의분배법칙.md)
 
 - [자료구조](./알고리즘/자료구조.md)
-
-
 
 ---
 
@@ -22,7 +20,7 @@
 
 - [CORS](./네트워크/CORS.md)
 
-- [Http 응답코드](./네트워크/Http 응답코드.md)
+- [Http 응답코드](./네트워크/Http응답코드.md)
 
 - [RESTful](./네트워크/RESTful.md)
 
@@ -34,7 +32,7 @@
 
 # Web
 
-- [webSocket vs webRTC](./Web/webSocket vs webRTC.md)
+- [webSocket vs webRTC](./Web/webSocket_vs_webRTC.md)
 
 ---
 
@@ -50,16 +48,14 @@
 
 # 프로그래밍
 
-- [Python vs PyPy](./프로그래밍/Python vs PyPy.md)
+- [Python vs PyPy](./프로그래밍/Python_vs_PyPy.md)
 
 - [TDD](./프로그래밍/TDD.md)
 
-- [디자인 패턴](./프로그래밍/디자인 패턴.md)
+- [디자인 패턴](./프로그래밍/디자인패턴.md)
 
-- [컴퓨터 수 체계](./프로그래밍/컴퓨터 수 체계.md)
+- [컴퓨터 수 체계](./프로그래밍/컴퓨터수체계.md)
 
-- [프로그래밍 패러다임](./프로그래밍/프로그래밍 패러다임.md)
+- [프로그래밍 패러다임](./프로그래밍/프로그래밍패러다임.md)
 
-- [함수형 프로그래밍과 Side Effect](./프로그래밍/함수형 프로그래밍과 Side Effect.md
-
-- )
+- [함수형 프로그래밍과 Side Effect](./프로그래밍/함수형프로그래밍과_Side_Effect.md)
