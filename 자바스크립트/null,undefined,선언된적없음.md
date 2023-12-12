@@ -13,13 +13,9 @@ let foo = null;
 foo; //null
 ```
 
-
-
 # undefined
 
 JavaScript의 원시 자료형 중 하나. 값을 할당하지 않은 변수. 선언 후 값을 할당하지 않은 변수나 값이 주어지지 않은 인자에 자동으로 할당됨. 함수의 경우 값을 명시적으로 반환하지 않으면 `undefined`를 반환함.
-
-
 
 # null과 undefined, 선언된 적 없음
 
@@ -43,5 +39,3 @@ foo; // foo is not defined
 typeof foo === undefined; // false
 typeof foo === typeof undefined; // true
 ```
-
-

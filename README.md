@@ -34,6 +34,8 @@
 
 - [webSocket vs webRTC](./Web/webSocket_vs_webRTC.md)
 
+- [브라우저에 존재하는 스토리지의 종류](./Web/브라우저스토리지종류.md)
+
 ---
 
 # 자바스크립트
