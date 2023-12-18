@@ -50,6 +50,10 @@
 
 - [null, undefined, 선언된 적 없음](./자바스크립트/null,undefined,선언된적없음.md)
 
+- [event loop](./자바스크립트/이벤트루프.md)
+
+- [strict mode](./자바스크립트/strcit_mode.md)
+
 ---
 
 # 프로그래밍

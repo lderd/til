@@ -2,7 +2,7 @@
 
 JavaScript에서 `null`은 원시 자료형이다. 하지만 `typeof` 연산자를 사용하면 `"object"`를 반환한다. 이는 버그로 여겨지지만 수정하면 많은 스크립트에 문제가 발생할 수 있기에 유지한다.
 
-`null`은 식별되지 않은 것을 표현. __변수가 아무런 객체를 가리키지 않음__ 을 표현.
+`null`은 식별되지 않은 것을 표현. **변수가 아무런 객체를 가리키지 않음** 을 표현.
 
 ```javascript
 // 정의되지 않고 초기화된 적도 없는 foo
@@ -30,9 +30,9 @@ JavaScript의 원시 자료형 중 하나. 값을 할당하지 않은 변수. �
 `is not defined(선언된 적 없음)`는 `undefined`와 구분하기 위해서는 엄격한 일치 연산(stric equallity, `===`)을 사용해야 한다.
 
 ```javascript
-null == undefined // true
-null === undefined // false
-typeof null; // "object" (하위호환 유지를 위해 "null"이 아님)
+null == undefined; // true
+null === undefined; // false
+typeof null; // "object" (하위호환 유지를 위해 "null"이 아님) (개념적으로 "undefined"는 값이 없음이고, "null"은 객체가 없음이기 때문에 "null"의 타입이 "object"가 나온다고 볼 수 있다.)
 typeof undefined; // "undefined"
 // =============
 foo; // foo is not defined
