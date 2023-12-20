@@ -52,7 +52,9 @@
 
 - [event loop](./자바스크립트/이벤트루프.md)
 
-- [strict mode](./자바스크립트/strcit_mode.md)
+- [strict mode](./자바스크립트/strict_mode.md)
+
+- [var, let, const](./자바스크립트/var,let,const.md)
 
 ---
 
