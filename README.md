@@ -20,9 +20,11 @@
 
 - [CORS](./네트워크/CORS.md)
 
-- [Http 응답코드](./네트워크/Http응답코드.md)
-
 - [RESTful](./네트워크/RESTful.md)
+
+- [Http method](./네트워크/http_method.md)
+
+- [Http 응답코드](./네트워크/Http응답코드.md)
 
 - [네트워크](./네트워크/네트워크.md)
 
