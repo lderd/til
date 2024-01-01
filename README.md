@@ -40,6 +40,8 @@
 
 - [스니핑 스푸핑 XSS](./Web/웹보안공격방식.md)
 
+- [Shadow Dom](./Web/ShadowDom.md)
+
 ---
 
 # 자바스크립트
