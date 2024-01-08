@@ -3,19 +3,19 @@
 ES5까지의 변수 선언 방식.
 
 1. 함수 레벨 스코프
-   
+
    - var는 함수 레벨 스코프이다.
 
 2. 키워드 생략 허용
-   
+
    - var 키워드를 사용하지 않는다면 암묵적 전역 변수를 생성해 할당한다.
 
 3. 중복 선언 허용
-   
+
    - 같은 이름의 변수를 선언할 수 있어 의도하지 않은 변수값의 변경이 일어날 수 있다.
 
 4. 호이스팅
-   
+
    - 스크립트 최상단에서 선언과 초기화를 한번에 하기 때문에 선언문 이전에 변수에 접근할 수 있다.
 
 # let, const
@@ -61,20 +61,20 @@ let bar = 456; // Uncaught SyntaxError: Identifier 'foo' has already been declar
 변수의 생성은 3단계에 걸쳐 이루어 진다.
 
 1. 선언(Declaration phase)
-   
+
    변수를 실행 컨텍스트의 변수 객체에 등록한다. 이 변수 객체는 스코프가 참조하는 대상이다.
 
 2. 초기화(Initialization phase)
-   
+
    변수 객체에 등록된 변수를 위한 공간을 메모리에 확보한다. 변수는 undefined로 초기화 된다.
 
 3. 할당(Assignment phase)
-   
+
    undefined로 초기화된 변수에 실제 값을 할당한다.
 
 #### var의 경우
 
-![var 변수의 선언](assets_var,let,const/var-lifecycle.png)
+![var 변수의 선언](./assets_var,let,const/var-lifecycle.png)
 
 var 키워드로 선언한 변수는 스코프의 선두에서 선언과 초기화를 동시에 진행한다. 따라서 실제 변수 선언문이 있기 이전에 초기화된 변수가 존재한다. 이때문에 변수 선언문 이전에 변수를 참조할 수 있는 현상이 발생한다.
 
@@ -92,7 +92,7 @@ console.log(foo); // 1
 
 #### let의 경우
 
-![let 변수의 선언](assets_var,let,const/let-lifecycle.png)
+![let 변수의 선언](./assets_var,let,const/let-lifecycle.png)
 
 let 키워드로 선언한 변수는 선언과 초기화가 분리되어 진행된다. 스코프의 선두에서 선언은 하지만 초기화는 선언문에 도착해야 진행된다. 따라서 초기와 이전에 변수에 접근하려 하면 참조 에러가 발생한다.
 

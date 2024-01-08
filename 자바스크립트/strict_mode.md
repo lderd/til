@@ -59,9 +59,9 @@ function foo() {
 ```
 
 strict mode가 적용되지 않은 모습. console 창에도 에러 메세지가 발생하지 않는다.
-![non-strict_mode](image.png)
-![non-strict_mode_code](image-1.png)
+![non-strict_mode](./assets_strict_mode/image.png)
+![non-strict_mode_code](./assets_strict_mode/image-1.png)
 
 strict mode가 적용된 모습. 콘솔창에 에러가 발생하며 `alert()`가 실행되지 않았다.
-![strict_mode](image-2.png)
-![strict_mode_code](image-3.png)
+![strict_mode](./assets_strict_mode/image-2.png)
+![strict_mode_code](./assets_strict_mode/image-3.png)

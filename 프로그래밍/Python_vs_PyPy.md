@@ -1,4 +1,4 @@
-![img](C:\Users\dkshk\AppData\Roaming\marktext\images\2023-02-22-16-01-40-image.png)
+![img](./assets_Python_vs_PyPy/2023-02-22-16-01-40-image.png)
 
 일반적으로 Python에 비해 PyPy가 성능이 더 좋다라고 알고 있었는데 백준에 있는 문제를 풀다가 Python으로는 통과가 되지만 PyPy로는 메모리 초과가 발생하는 문제를 만나서 'PyPy로 안되는데 Python으로 통과가 된다고?'라는 의문점이 생겨 그 차이를 가볍게 알아보았다.
 
@@ -8,14 +8,14 @@
 
 #### 정적 컴파일 방식
 
-![img](https://losskatsu.github.io/assets/images/os/compiler/compiler02.png)
+![img](./assets_Python_vs_PyPy/compiler1.png)
 
 컴파일러는 원시코드(source code)를 목적코드(object code)로 바꿔서 실행을 시키는 것으로 목적코드들을 묶어서 하나의 실행파일로 만드는 링킹이라는 과정을 거쳐 하나의 실행파일을 만들고 이를 실행한다. 따라서 실행 전에 오류를 발견할 수 있고 초기 스캔 시간이 걸리지만 전체 실행 시간만 보면 인터프리터보다 빠르고 메모리를 인터프리터보다 많이 사용한다.
 C, C++, JAVA
 
 #### 인터프리트 방식
 
-![img](https://losskatsu.github.io/assets/images/os/compiler/compiler03.png)
+![img](./assets_Python_vs_PyPy/compiler2.png)
 
 인터프리터는 프로그램을 실행할 때 한 문장씩 번역해서 실행한다. 목적코드나 링킹과정이 필요 없기에 메모리 사용효율 면에서 앞서지만 전체적인 코드의 실행 속도 면에서는 컨파일러에 미치지 못한다. 또한 실행해야지만 오류를 확인할 수 있다.
 Python, Ruby, Javascript

@@ -14,30 +14,30 @@ CORS에러의 경우 보안상의 이유로 JavaScript에서는 오류의 상세
 
 CORS의 동작 원리
 
-![Flowchart showing Simple and Preflight XHR.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flowchart_showing_Simple_and_Preflight_XHR.svg/1920px-Flowchart_showing_Simple_and_Preflight_XHR.svg.png)
+![Flowchart showing Simple and Preflight XHR.svg](./assets_CORS/1920px-Flowchart_showing_Simple_and_Preflight_XHR.svg.png)
 
 그림을 보면 녹색 부분은 CORS preflight를 발생시키지 않는 일부 요청이다.
 
 - 다음 중하나의 메서드
-  
+
   - GET
-  
+
   - HEAD
-  
+
   - POST
 
-- 유저가 직접 설정한 헤더가 __Fetch 명세에서 “CORS-safelisted request-header”로 정의한 헤더__ 만 있다
-  
+- 유저가 직접 설정한 헤더가 **Fetch 명세에서 “CORS-safelisted request-header”로 정의한 헤더** 만 있다
+
   - `Accept`
-  
+
   - `Accept-Language`
-  
+
   - `Content-Language`
-  
+
   - `Content-Type`
 
 - `Content-Type`헤더는 다음의 값들만 허용
-  
+
   - `application/x-www-form-urlencoded`
   - `multipart/form-data`
   - `text/plain`

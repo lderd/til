@@ -36,7 +36,7 @@ Shadow Dom은 이를 해결하는 방법이 될 수 있다.
 
 간단히 말하면 웹 페이지에 이와 구분되는 웹 페이지를 삽입하는 기술이라 생각하면 된다.
 
-![shadow dom](./assets_ShadowDom/shadowdom.svg)
+![shadow dom](./assets_ShadowDom/shadowdom.png)
 
 shadow dom은 숨겨진 dom 트리가 통상의 dom 트리에 속한 요소에 부착될 수 있도록 한다.
 
