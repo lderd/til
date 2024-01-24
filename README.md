@@ -46,23 +46,29 @@
 
 ---
 
-# 자바스크립트
+# 프론트엔드
 
-- [ajax](./자바스크립트/ajax.md)
+## SSR(Server Side Randering, 서버사이드 랜더링)
 
-- [Ref](./자바스크립트/Ref.md)
+- [jsp](./프론트/SSR/jsp.md)
 
-- [이벤트](./자바스크립트/이벤트.md)
+## 자바스크립트
 
-- [함수선언](./자바스크립트/함수선언.md)
+- [ajax](./프론트/자바스크립트/ajax.md)
 
-- [null, undefined, 선언된 적 없음](./자바스크립트/null,undefined,선언된적없음.md)
+- [Ref](./프론트/자바스크립트/Ref.md)
 
-- [event loop](./자바스크립트/이벤트루프.md)
+- [이벤트](./프론트/자바스크립트/이벤트.md)
 
-- [strict mode](./자바스크립트/strict_mode.md)
+- [함수선언](./프론트/자바스크립트/함수선언.md)
 
-- [var, let, const](./자바스크립트/var,let,const.md)
+- [null, undefined, 선언된 적 없음](./프론트/자바스크립트/null,undefined,선언된적없음.md)
+
+- [event loop](./프론트/자바스크립트/이벤트루프.md)
+
+- [strict mode](./프론트/자바스크립트/strict_mode.md)
+
+- [var, let, const](./프론트/자바스크립트/var,let,const.md)
 
 ---
 
