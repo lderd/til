@@ -72,6 +72,14 @@
 
 ---
 
+# 백엔드
+
+## 자바
+
+- [JVM](./백엔드/자바/JVM.md)
+
+---
+
 # 프로그래밍
 
 - [Python vs PyPy](./프로그래밍/Python_vs_PyPy.md)
