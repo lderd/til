@@ -8,7 +8,7 @@
 
 어떠한 기사의 첫 번째 단락을 강조하고 싶을 때
 
-```javascript
+```html
 <article>
   <p class="first">기사의 첫번째 단락</p>
   <p>나머지 기사 내용</p>
@@ -24,7 +24,7 @@
 
 위와 같이 할 수 있지만, 이 경우 기사의 내용이 변경된다면 매 번 클래스를 수정해야 한다. 이럴 경우 `:first-child` 의사 클래스를 사용할 수 있다.
 
-```javascript
+```html
 <article>
   <p class="first">기사의 첫번째 단락</p>
   <p>나머지 기사 내용</p>
@@ -67,7 +67,7 @@ css의 `content` 속성을 사용해 문서에 컨텐츠를 삽입할 수 있다
 }
 ```
 
-```javascript
+```html
 <p class="box">Content in the box in my HTML page.</p>
 ```
 
