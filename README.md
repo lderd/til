@@ -74,6 +74,8 @@
 
 - [var, let, const](./프론트/자바스크립트/var,let,const.md)
 
+- [의사 클래스, 의사 요소(pseudo)](./프론트/자바스크립트/pseudo_class_elements.md)
+
 ---
 
 # 백엔드
