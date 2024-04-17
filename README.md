@@ -46,6 +46,8 @@
 
 - [Shadow Dom](./Web/ShadowDom.md)
 
+- [web server와 WAS](./Web/web_server_was.md)
+
 ---
 
 # 프론트엔드
