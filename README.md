@@ -48,6 +48,8 @@
 
 - [web server와 WAS](./Web/web_server_was.md)
 
+- [실시간 통신](./Web/실시간통신.md)
+
 ---
 
 # 프론트엔드
